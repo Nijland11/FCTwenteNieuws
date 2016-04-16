@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5D04FEF1CC203F000EF6FE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D04FEE1CC203F000EF6FE4 /* AppDelegate.swift */; };
+		C5D04FF11CC203F000EF6FE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D04FF01CC203F000EF6FE4 /* ViewController.swift */; };
+		C5D04FF41CC203F000EF6FE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5D04FF21CC203F000EF6FE4 /* Main.storyboard */; };
+		C5D04FF61CC203F000EF6FE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5D04FF51CC203F000EF6FE4 /* Assets.xcassets */; };
+		C5D04FF91CC203F000EF6FE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5D04FF71CC203F000EF6FE4 /* LaunchScreen.storyboard */; };
+		C5D050041CC203F000EF6FE4 /* FCTwenteNieuwsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D050031CC203F000EF6FE4 /* FCTwenteNieuwsTests.swift */; };
+		C5D0500F1CC203F000EF6FE4 /* FCTwenteNieuwsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D0500E1CC203F000EF6FE4 /* FCTwenteNieuwsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5D050001CC203F000EF6FE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5D04FE31CC203EF00EF6FE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5D04FEA1CC203EF00EF6FE4;
+			remoteInfo = FCTwenteNieuws;
+		};
+		C5D0500B1CC203F000EF6FE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5D04FE31CC203EF00EF6FE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5D04FEA1CC203EF00EF6FE4;
+			remoteInfo = FCTwenteNieuws;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C5D04FEB1CC203F000EF6FE4 /* FCTwenteNieuws.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FCTwenteNieuws.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5D04FEE1CC203F000EF6FE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C5D04FF01CC203F000EF6FE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C5D04FF31CC203F000EF6FE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5D04FF51CC203F000EF6FE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5D04FF81CC203F000EF6FE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5D04FFA1CC203F000EF6FE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5D04FFF1CC203F000EF6FE4 /* FCTwenteNieuwsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FCTwenteNieuwsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5D050031CC203F000EF6FE4 /* FCTwenteNieuwsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCTwenteNieuwsTests.swift; sourceTree = "<group>"; };
+		C5D050051CC203F000EF6FE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5D0500A1CC203F000EF6FE4 /* FCTwenteNieuwsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FCTwenteNieuwsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5D0500E1CC203F000EF6FE4 /* FCTwenteNieuwsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCTwenteNieuwsUITests.swift; sourceTree = "<group>"; };
+		C5D050101CC203F000EF6FE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5D04FE81CC203EF00EF6FE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5D04FFC1CC203F000EF6FE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5D050071CC203F000EF6FE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5D04FE21CC203EF00EF6FE4 = {
+			isa = PBXGroup;
+			children = (
+				C5D04FED1CC203F000EF6FE4 /* FCTwenteNieuws */,
+				C5D050021CC203F000EF6FE4 /* FCTwenteNieuwsTests */,
+				C5D0500D1CC203F000EF6FE4 /* FCTwenteNieuwsUITests */,
+				C5D04FEC1CC203F000EF6FE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5D04FEC1CC203F000EF6FE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5D04FEB1CC203F000EF6FE4 /* FCTwenteNieuws.app */,
+				C5D04FFF1CC203F000EF6FE4 /* FCTwenteNieuwsTests.xctest */,
+				C5D0500A1CC203F000EF6FE4 /* FCTwenteNieuwsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5D04FED1CC203F000EF6FE4 /* FCTwenteNieuws */ = {
+			isa = PBXGroup;
+			children = (
+				C5D04FEE1CC203F000EF6FE4 /* AppDelegate.swift */,
+				C5D04FF01CC203F000EF6FE4 /* ViewController.swift */,
+				C5D04FF21CC203F000EF6FE4 /* Main.storyboard */,
+				C5D04FF51CC203F000EF6FE4 /* Assets.xcassets */,
+				C5D04FF71CC203F000EF6FE4 /* LaunchScreen.storyboard */,
+				C5D04FFA1CC203F000EF6FE4 /* Info.plist */,
+			);
+			path = FCTwenteNieuws;
+			sourceTree = "<group>";
+		};
+		C5D050021CC203F000EF6FE4 /* FCTwenteNieuwsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5D050031CC203F000EF6FE4 /* FCTwenteNieuwsTests.swift */,
+				C5D050051CC203F000EF6FE4 /* Info.plist */,
+			);
+			path = FCTwenteNieuwsTests;
+			sourceTree = "<group>";
+		};
+		C5D0500D1CC203F000EF6FE4 /* FCTwenteNieuwsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C5D0500E1CC203F000EF6FE4 /* FCTwenteNieuwsUITests.swift */,
+				C5D050101CC203F000EF6FE4 /* Info.plist */,
+			);
+			path = FCTwenteNieuwsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5D04FEA1CC203EF00EF6FE4 /* FCTwenteNieuws */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5D050131CC203F000EF6FE4 /* Build configuration list for PBXNativeTarget "FCTwenteNieuws" */;
+			buildPhases = (
+				C5D04FE71CC203EF00EF6FE4 /* Sources */,
+				C5D04FE81CC203EF00EF6FE4 /* Frameworks */,
+				C5D04FE91CC203EF00EF6FE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FCTwenteNieuws;
+			productName = FCTwenteNieuws;
+			productReference = C5D04FEB1CC203F000EF6FE4 /* FCTwenteNieuws.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5D04FFE1CC203F000EF6FE4 /* FCTwenteNieuwsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5D050161CC203F000EF6FE4 /* Build configuration list for PBXNativeTarget "FCTwenteNieuwsTests" */;
+			buildPhases = (
+				C5D04FFB1CC203F000EF6FE4 /* Sources */,
+				C5D04FFC1CC203F000EF6FE4 /* Frameworks */,
+				C5D04FFD1CC203F000EF6FE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5D050011CC203F000EF6FE4 /* PBXTargetDependency */,
+			);
+			name = FCTwenteNieuwsTests;
+			productName = FCTwenteNieuwsTests;
+			productReference = C5D04FFF1CC203F000EF6FE4 /* FCTwenteNieuwsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5D050091CC203F000EF6FE4 /* FCTwenteNieuwsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5D050191CC203F000EF6FE4 /* Build configuration list for PBXNativeTarget "FCTwenteNieuwsUITests" */;
+			buildPhases = (
+				C5D050061CC203F000EF6FE4 /* Sources */,
+				C5D050071CC203F000EF6FE4 /* Frameworks */,
+				C5D050081CC203F000EF6FE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5D0500C1CC203F000EF6FE4 /* PBXTargetDependency */,
+			);
+			name = FCTwenteNieuwsUITests;
+			productName = FCTwenteNieuwsUITests;
+			productReference = C5D0500A1CC203F000EF6FE4 /* FCTwenteNieuwsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5D04FE31CC203EF00EF6FE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Chris Nijland";
+				TargetAttributes = {
+					C5D04FEA1CC203EF00EF6FE4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 29G42XFEPM;
+					};
+					C5D04FFE1CC203F000EF6FE4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 29G42XFEPM;
+						TestTargetID = C5D04FEA1CC203EF00EF6FE4;
+					};
+					C5D050091CC203F000EF6FE4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 29G42XFEPM;
+						TestTargetID = C5D04FEA1CC203EF00EF6FE4;
+					};
+				};
+			};
+			buildConfigurationList = C5D04FE61CC203EF00EF6FE4 /* Build configuration list for PBXProject "FCTwenteNieuws" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5D04FE21CC203EF00EF6FE4;
+			productRefGroup = C5D04FEC1CC203F000EF6FE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5D04FEA1CC203EF00EF6FE4 /* FCTwenteNieuws */,
+				C5D04FFE1CC203F000EF6FE4 /* FCTwenteNieuwsTests */,
+				C5D050091CC203F000EF6FE4 /* FCTwenteNieuwsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5D04FE91CC203EF00EF6FE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D04FF91CC203F000EF6FE4 /* LaunchScreen.storyboard in Resources */,
+				C5D04FF61CC203F000EF6FE4 /* Assets.xcassets in Resources */,
+				C5D04FF41CC203F000EF6FE4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5D04FFD1CC203F000EF6FE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5D050081CC203F000EF6FE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5D04FE71CC203EF00EF6FE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D04FF11CC203F000EF6FE4 /* ViewController.swift in Sources */,
+				C5D04FEF1CC203F000EF6FE4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5D04FFB1CC203F000EF6FE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D050041CC203F000EF6FE4 /* FCTwenteNieuwsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5D050061CC203F000EF6FE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D0500F1CC203F000EF6FE4 /* FCTwenteNieuwsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5D050011CC203F000EF6FE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5D04FEA1CC203EF00EF6FE4 /* FCTwenteNieuws */;
+			targetProxy = C5D050001CC203F000EF6FE4 /* PBXContainerItemProxy */;
+		};
+		C5D0500C1CC203F000EF6FE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5D04FEA1CC203EF00EF6FE4 /* FCTwenteNieuws */;
+			targetProxy = C5D0500B1CC203F000EF6FE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5D04FF21CC203F000EF6FE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5D04FF31CC203F000EF6FE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5D04FF71CC203F000EF6FE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5D04FF81CC203F000EF6FE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5D050111CC203F000EF6FE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5D050121CC203F000EF6FE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5D050141CC203F000EF6FE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FCTwenteNieuws/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.dutchstormdesign.FCTwenteNieuws;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C5D050151CC203F000EF6FE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FCTwenteNieuws/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.dutchstormdesign.FCTwenteNieuws;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C5D050171CC203F000EF6FE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FCTwenteNieuwsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.dutchstormdesign.FCTwenteNieuwsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FCTwenteNieuws.app/FCTwenteNieuws";
+			};
+			name = Debug;
+		};
+		C5D050181CC203F000EF6FE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FCTwenteNieuwsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.dutchstormdesign.FCTwenteNieuwsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FCTwenteNieuws.app/FCTwenteNieuws";
+			};
+			name = Release;
+		};
+		C5D0501A1CC203F000EF6FE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FCTwenteNieuwsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.dutchstormdesign.FCTwenteNieuwsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FCTwenteNieuws;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C5D0501B1CC203F000EF6FE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FCTwenteNieuwsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.dutchstormdesign.FCTwenteNieuwsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FCTwenteNieuws;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5D04FE61CC203EF00EF6FE4 /* Build configuration list for PBXProject "FCTwenteNieuws" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5D050111CC203F000EF6FE4 /* Debug */,
+				C5D050121CC203F000EF6FE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5D050131CC203F000EF6FE4 /* Build configuration list for PBXNativeTarget "FCTwenteNieuws" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5D050141CC203F000EF6FE4 /* Debug */,
+				C5D050151CC203F000EF6FE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5D050161CC203F000EF6FE4 /* Build configuration list for PBXNativeTarget "FCTwenteNieuwsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5D050171CC203F000EF6FE4 /* Debug */,
+				C5D050181CC203F000EF6FE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5D050191CC203F000EF6FE4 /* Build configuration list for PBXNativeTarget "FCTwenteNieuwsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5D0501A1CC203F000EF6FE4 /* Debug */,
+				C5D0501B1CC203F000EF6FE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5D04FE31CC203EF00EF6FE4 /* Project object */;
+}
