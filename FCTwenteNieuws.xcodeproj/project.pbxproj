@@ -74,6 +74,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C5233BB01CC21D7200027FFC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C5233BB11CC21D8800027FFC /* Controler */ = {
+			isa = PBXGroup;
+			children = (
+				C5D04FF01CC203F000EF6FE4 /* ViewController.swift */,
+			);
+			name = Controler;
+			sourceTree = "<group>";
+		};
+		C5233BB21CC21D9800027FFC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C5D04FF21CC203F000EF6FE4 /* Main.storyboard */,
+				C5D04FF71CC203F000EF6FE4 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C5233BB31CC21DD300027FFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5D04FEE1CC203F000EF6FE4 /* AppDelegate.swift */,
+				C5D04FFA1CC203F000EF6FE4 /* Info.plist */,
+				C5D04FF51CC203F000EF6FE4 /* Assets.xcassets */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		C5D04FE21CC203EF00EF6FE4 = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +131,10 @@
 		C5D04FED1CC203F000EF6FE4 /* FCTwenteNieuws */ = {
 			isa = PBXGroup;
 			children = (
-				C5D04FEE1CC203F000EF6FE4 /* AppDelegate.swift */,
-				C5D04FF01CC203F000EF6FE4 /* ViewController.swift */,
-				C5D04FF21CC203F000EF6FE4 /* Main.storyboard */,
-				C5D04FF51CC203F000EF6FE4 /* Assets.xcassets */,
-				C5D04FF71CC203F000EF6FE4 /* LaunchScreen.storyboard */,
-				C5D04FFA1CC203F000EF6FE4 /* Info.plist */,
+				C5233BB31CC21DD300027FFC /* Supporting Files */,
+				C5233BB01CC21D7200027FFC /* Model */,
+				C5233BB11CC21D8800027FFC /* Controler */,
+				C5233BB21CC21D9800027FFC /* View */,
 			);
 			path = FCTwenteNieuws;
 			sourceTree = "<group>";
@@ -193,7 +225,6 @@
 				TargetAttributes = {
 					C5D04FEA1CC203EF00EF6FE4 = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = 29G42XFEPM;
 					};
 					C5D04FFE1CC203F000EF6FE4 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -402,6 +433,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FCTwenteNieuws/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nl.dutchstormdesign.FCTwenteNieuws;
@@ -413,6 +445,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FCTwenteNieuws/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nl.dutchstormdesign.FCTwenteNieuws;
@@ -487,6 +520,7 @@
 				C5D050151CC203F000EF6FE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5D050161CC203F000EF6FE4 /* Build configuration list for PBXNativeTarget "FCTwenteNieuwsTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +529,7 @@
 				C5D050181CC203F000EF6FE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5D050191CC203F000EF6FE4 /* Build configuration list for PBXNativeTarget "FCTwenteNieuwsUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +538,7 @@
 				C5D0501B1CC203F000EF6FE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
