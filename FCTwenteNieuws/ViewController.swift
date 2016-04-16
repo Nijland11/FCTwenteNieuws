@@ -12,14 +12,36 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+       
+        
+        //call API
+        let api = APIManager()
+        api.loadData("http://api.football-data.org/v1/soccerseasons/404/leagueTable",
+        completion: didLoadData)
+        
+        
+        
+        
+        
+    }
+    
+    func didLoadData(result:String) {
+       
+        let alert = UIAlertController(title: (result), message: nil, preferredStyle: .
+        Alert)
+        
+        let okAction = UIAlertAction(title: "OK", style: .Default) { acttion -> Void in
+            //do something if you want
+            
+        }
+        
+        alert.addAction(okAction)
+        self.presentViewController(alert,animated: true, completion: nil)
+        
+        
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
+    
 }
 
